@@ -1,0 +1,424 @@
+ .ody{
+    background: url(image/pexels-lisa-fotios-1231023.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 200%; 
+   
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background-color: rgba(165, 42, 42, 0.9);
+    width: auto;    
+}
+
+.titr{
+    font-size: 35px;
+    color:yellow;
+    margin-top: 5px;
+}
+.tar{
+    font-size: 75px;
+}
+.lo{
+    font-size: 20px;
+}
+.bou{
+    background-color: antiquewhite;
+    width: 130%;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+
+
+.bn{
+    background-color: brown;
+    width: 150px;
+    border: 1px solid brown;
+    position: relative;
+    top: 0px;
+    left:193px;   
+}
+.f{
+    font-weight: 200;
+    width: 150px;
+    margin: auto;
+}
+.tri{
+    background-color: rgba(128, 0, 0, 0.7);
+    width: 100%;
+    margin-bottom: 35px;
+    padding: 30px;
+    height: 100%;
+}
+.glob{
+    border: 2px solid rgb(251, 252, 251);
+    border-radius: 5px;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+
+}
+ .bu{
+    background-color: antiquewhite;
+    padding: 20px;
+     width: 100%;
+    border-radius: 5px;
+    margin:  auto; 
+}
+.car{
+    width: 60%;
+    margin: auto;
+}
+.lo{
+    background-color: rgb(52, 10, 10,0.9);
+    color: grey;
+}
+.bo{
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    top: -70px;   
+}
+.g{
+    font-weight: 200;
+   
+}
+.t{
+    font-weight: 100;
+    font-size: 35px;
+}
+.ou{
+    background-color: antiquewhite;
+    width: 150%;
+  
+    position: relative;
+    top: 300px;
+    left: -730px;
+}
+.uo{
+    background-color: antiquewhite;
+    width: 155%;
+   
+    position: relative;
+    right: -660px;
+    top: -50px;
+   
+}
+.tr{
+    background-color: rgba(128, 0, 0, 0.7);
+    width: 100%;
+    margin-bottom: 35px;
+    padding: 30px;
+    height: 100%;
+}
+.glo{
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    height: 100%;
+}
+.louca{
+    width: 75%;
+    margin:auto;
+}
+.l{
+    font-weight: 100;
+
+}
+  
+.ro{
+    background-color: antiquewhite;
+    width: 140%;
+    position: relative;
+    top: -50px;
+    font-size: 15px;
+    left: 100px;
+   
+} 
+.ru{
+    background-color: antiquewhite;
+    width: 140%;
+    position: relative;
+    top: 300px;
+    font-size: 15px;
+    left: -200Px;
+   
+}   
+@media  screen and (max-width:1200px) {
+    .mi{
+     display: none;
+    } 
+    .ody{
+       
+        width:100%; 
+    }
+    .bg{
+        background-color: brown;
+        width:100%;    
+    }
+    .bou{
+        background-color: antiquewhite;
+        width: 150%;
+        position: relative;
+        top: 30px;
+        left: 20px;
+    }
+    
+    .bn{
+        background-color: brown;
+        width: 150px;
+        border: 1px solid brown;
+        position: relative;
+        top: 10px;   
+        }
+        .glob{
+            border: 2px solid rgb(251, 252, 251);
+            border-radius: 5px;
+            width: 80%;
+            margin: 20px auto;
+            padding: 10px;
+        
+        }
+         .bu{
+            background-color: antiquewhite;
+            padding: 20px;
+             width: 100%;
+            border-radius: 5px;
+            margin: auto; 
+        }
+        .bo{
+            background-color: antiquewhite;
+            width: 100%;
+            padding: 20px;
+            position: relative;
+            top: 60px;
+           
+        } 
+        .ou{
+            background-color: antiquewhite;
+            width: 100%;
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+        .uo{
+            background-color: antiquewhite;
+            width: 100%;
+            position: relative;
+            right: 0px;
+            top:-10px;   
+        }
+        .glo{
+            border: 2px solid rgb(251, 252, 251);
+            border-radius: 5px;
+            padding: 10px;
+            width: 95%;
+            margin: auto;
+            height: 100%;
+        }
+        .louca{
+            width: 85%;
+            margin:auto;
+        }
+}
+         
+
+ @media  screen and (max-width:700px) {
+     .mi{
+         display: none;
+        } 
+        .ody{
+           
+            width: 100%;
+         
+        }
+        .bg{
+            background-color: brown;
+            width: 100%;    
+        }
+      
+        .bou{
+            position: relative;
+            top: -50px;
+            left: 00px;
+            width: 100%;
+        
+        }
+        .pho{
+            width: 100%;
+        }
+        .bn{
+            background-color: brown;
+            width: 150px;
+            border: 1px solid brown;
+            position: relative;
+            top: -100px;
+            left:100px;   
+        }
+        .glob{
+            border: 2px solid rgb(251, 252, 251);
+            border-radius: 5px;
+            width: 80%;
+            margin: 20px auto;
+            padding: 10px;
+        
+        }
+         .bu{
+            background-color: antiquewhite;
+            padding: 20px;
+             width: 100%;
+            border-radius: 5px;
+            text-align: center;
+        } 
+        .bo{
+            background-color: antiquewhite;
+            width: 100%;
+            padding: 20px;
+            position: relative;
+            top: 60px;
+           
+        } 
+        .ou{
+            background-color: antiquewhite;
+            width: 100%;
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+        .uo{
+            background-color: antiquewhite;
+            width: 100%;
+            position: relative;
+            right: 0px;
+            top:-10px;   
+        }
+        .glo{
+            border: 2px solid rgb(251, 252, 251);
+            border-radius: 5px;
+            padding: 10px;
+            width: 95%;
+            margin: auto;
+            height: 100%;
+        }
+        .louca{
+            width: 85%;
+            margin:auto;
+        }
+       
+       
+        
+     
+ }
+@media  screen and (max-width:500px) {
+    
+     .mi{
+         display: none;
+        }
+        .ody{
+          
+           width:100%; 
+        }
+      
+        .bou{
+            position: relative;
+            top: -50px;
+            left: 00px;
+            width: 100%;
+        
+        }
+        .bn{
+            background-color: brown;
+            width: 150px;
+            border: 1px solid brown;
+            position: relative;
+            top: -100px;
+            left:100px;   
+        }
+        .pho{
+            width: 100%;
+        } 
+        .tri{
+            background-color: rgba(128, 0, 0, 0.7);
+            width: 100%;
+           
+        }
+        .glob{
+            border: 2px solid rgb(251, 252, 251);
+            border-radius: 5px;
+            width: 80%;
+            margin: 20px auto;
+            padding: 10px;
+        
+        }
+         .bu{
+            background-color: antiquewhite;
+            padding: 20px;
+             width: 100%;
+            border-radius: 5px;
+            text-align: center;
+        }  
+        .bo{
+            background-color: antiquewhite;
+            width: 100%;
+            padding: 20px;
+            position: relative;
+            top: 60px;
+           
+        } 
+        .ou{
+            background-color: antiquewhite;
+            width: 100%;
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+        .uo{
+            background-color: antiquewhite;
+            width: 100%;
+            position: relative;
+            right: 0px;
+            top:-10px;   
+        }
+    
+        .glo{
+            border: 2px solid red;
+            border-radius: 5px;
+            padding: 10px;
+            width: 95%;
+            margin: auto;
+            height: 100%;
+        }
+        .louca{
+            width: 90%;
+            margin:auto;
+        } 
+        .ro{
+            background-color: antiquewhite;
+            width: 100%;
+            position: relative;
+            top: -10px;
+            font-size: 15px;
+            left: 0px;
+           
+        } 
+        .ru{
+            background-color: antiquewhite;
+            width: 100%;
+            position: relative;
+            top: 0px;
+            font-size: 15px;
+            left: 0Px;
+           
+        }   
+    
+}
